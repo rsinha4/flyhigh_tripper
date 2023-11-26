@@ -34,6 +34,16 @@
     font-weight: bold;
 }
 
+.buttons .reg-btn{
+    border: solid 1px #ffbf00;
+}
+
+.buttons .reg-btn:hover{
+    color: black;
+    background-color: #ffbf00;
+    border: 1px solid black;
+}
+
 .buttons button:hover{
     color: #FFC107;
     background-color: white;
