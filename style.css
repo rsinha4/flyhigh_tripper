@@ -28,7 +28,7 @@
     z-index: 1  ;
 }
 
-.buttons button {
+.buttons{
     padding: 4px 20px;
     margin:0 5px;
     font-weight: bold;
@@ -208,5 +208,6 @@
         font-weight: 300;
       }
 
+      
 
 }
