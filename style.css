@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 300;
+}
+
+
+.navbar-brand {
+    font-family: 'Paytone One', sans-serif;
+}
+
+.flyhigh {
+    color: #FFC107;
+}
+
+.nav-item{
+    padding: 0 12px;
+}
+
+.dropdown-menu{
+    z-index: 1  ;
+}
+
+.buttons button {
+    padding: 4px 20px;
+    margin:0 5px;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    color: #FFC107;
+    background-color: white;
+    border: 1px solid #FFC107;
+}
+
+.section_2{
+    height: 80vh;
+    color:black;
+    padding: 10px; 
+    font-size: 24px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./Images/main.jpg');
+    background-size: cover; 
+  }
+
+
+
+  .text h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: .8px;
+    
+  }
+
+  .text h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:100px;
+    padding-top: 10px;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+  .change{
+    color: #FFC107;
+  }
+
+  .text button{
+    padding: 7px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block; /* Set to display as inline-block */
+    width: auto; /* Set the width to auto */
+    margin-top: 10px;
+  }
+
+  .text button:hover{
+    color: #FFC107;
+    background-color: white;
+    border: 1px solid #FFC107;
+}
+
+.change::after{
+    content:'Vietnam';
+    animation-name: changetext;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changetext {
+    20%{
+        content:'Germany';
+    }
+    40%{
+        content: 'Singapore';
+    }
+    60% {
+        content: 'Canada';
+    }
+    80%{
+        content:'Thailand';
+    }
+    100% {
+        content: 'Dubai';
+    }
+    
+}
+
+
+.section_3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.row{
+    margin-top: 2rem;
+   
+}
+
+.news{
+    margin-top: 5rem;
+}
+
+.form-input{
+    margin: 1rem;
+}
+
+.section_4{
+    background-color: rgb(248, 248, 244);
+}
+
+
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.center-card{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin-bottom: 40px;
+  }
+  
+
+  .card img {
+    height: 180px; 
+    object-fit: cover;
+  }
+
+
+   i{
+    font-size: 5rem;
+    color: #ffbf00;
+  }
+
+  .text{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+
+@media (max-width: 767px) {
+   
+    .nav-bar.collapse.navbar-collapse.d-flex.justify-content-around {
+      display: block !important; 
+      justify-content: initial !important;
+    }
+
+    .text h2{
+        font-size: 20px;
+        color: white;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 25px;
+    }
+
+    .section_2{
+        height: 70vh;
+    }
+
+    i{
+        font-size: 3rem;
+        color: #ffbf00;
+      }
+    
+      .text{
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+      }
+
+
+}
